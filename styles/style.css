@@ -255,3 +255,17 @@ a:hover {
 .footer-button:hover {
     background: #00509e;
 }
+
+
+
+.row {
+    border: 2px solid red;
+}
+
+.col-md-6 {
+    border: 2px solid green;
+}
+
+.col-lg-4 {
+    border: 2px solid blue;
+}
