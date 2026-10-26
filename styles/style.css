@@ -13,10 +13,6 @@
         text-align: center;
     }
 
-    .flex-container {
-        flex-direction: column;
-    }
-
     .profile-image {
         margin-top: 0;
     }
@@ -47,19 +43,12 @@ header {
     padding: 30px;
 }
 
-.header-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
-
-.photo-section {
-    flex: 0 0 180px;
-}
 
 .info-section {
     text-align: left;
+    border-bottom: 3px solid yellow;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .info-section h1 {
@@ -136,18 +125,24 @@ header {
 .navigation {
     margin-top: 25px;
     padding-top: 15px;
-    border-top: 1px solid rgba(255,255,255,0.3);
+    border-top: 2px solid #ffffff;
     font-weight: bold;
 }
 
+
 .navigation a {
     color: white;
-    padding: 5px 10px;
-    text-decoration: none;
+	margin: 0 10px;
 }
 
 .navigation a:hover {
     color: #ffcc66;
+}
+
+.navbar {
+    border-top: 2px solid #ffffff;
+    margin-top: 20px;
+    padding-top: 15px;
 }
 
 
@@ -183,23 +178,11 @@ a:hover {
 
 
 /* ==================================================
-   Flexbox
-   ================================================== */
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-
-/* ==================================================
    Cards
    ================================================== */
 
 .card {
-    flex: 1;
-    min-width: 300px;
+	height: 100%;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -272,5 +255,3 @@ a:hover {
 .footer-button:hover {
     background: #00509e;
 }
-
-
