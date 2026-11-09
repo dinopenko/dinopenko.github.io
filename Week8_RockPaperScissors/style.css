@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    text-align: center;
+}
+
+button {
+    width: 140px;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #003366;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #00509e;
+    transform: scale(1.05);
+}
+
+.win {
+    color: green;
+}
+
+.lose {
+    color: red;
+}
+
+.draw {
+    color: orange;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+#result {
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+h1 {
+    color: #003366;
+}
