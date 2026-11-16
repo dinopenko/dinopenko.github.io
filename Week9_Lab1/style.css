@@ -1,0 +1,81 @@
+/* Week 9 Lab - Subject Results
+   Dino Penko */
+
+
+/* General page styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/* Main container */
+
+.container {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Heading */
+
+h1 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+
+/* Number input */
+
+input[type="number"] {
+    width: 80%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+/* Button */
+
+button {
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #003366;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00509e;
+}
+
+
+/* Results area */
+
+#results {
+    margin-top: 25px;
+    padding: 15px;
+}
+
+#results h2 {
+    color: #003366;
+}
+
+#results p {
+    font-size: 18px;
+    margin: 8px 0;
+}
