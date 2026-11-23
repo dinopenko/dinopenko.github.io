@@ -1,0 +1,151 @@
+/* ==================================================
+   Grocery List Application
+   Dino Penko
+   Week 10 Lab
+   ================================================== */
+
+
+/*    General Page Styling */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+
+/*    Main Container */
+
+.container {
+    max-width: 550px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+/*    Headings  */
+
+h1 {
+    color: #003366;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #003366;
+    margin-top: 30px;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 8px;
+}
+
+.container > p {
+    text-align: center;
+    color: #666666;
+}
+
+
+/*    Input Area */
+
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+
+/*    Dropdown List  */
+
+select {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    background-color: white;
+    color: #333333;
+    font-size: 16px;
+}
+
+/*    Buttons  */
+
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #003366;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00509e;
+}
+
+/*  Grocery List */
+
+#groceryList {
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+/* Individual Grocery Items */
+
+#groceryList li {
+    margin-bottom: 10px;
+    padding: 10px 12px;
+    background-color: #f4f6f9;
+    border-radius: 6px;
+}
+
+
+/*    Remove Buttons  */
+
+#groceryList li button {
+    float: right;
+    background-color: #b02a37;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+#groceryList li button:hover {
+    background-color: #842029;
+}
+
+/*    Item Counter  */
+
+#itemCount {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid #dddddd;
+    text-align: center;
+    color: #666666;
+    font-weight: bold;
+}
+
+/*    Responsive Design  */
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .input-area {
+        flex-direction: column;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    .input-area button {
+        width: 100%;
+    }
+}

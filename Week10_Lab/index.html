@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Week 10 - Grocery List</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>🛒 My Grocery List</h1>
+			<p>Select an item and add it to your shopping list.</p>
+			<div class="input-area">
+				<select id="groceryItem">
+					<option value="">-- Select an item --</option>
+					<option value="Milk">🥛 Milk</option>
+					<option value="Bread">🍞 Bread</option>
+					<option value="Eggs">🥚 Eggs</option>
+					<option value="Coffee">☕ Coffee</option>
+					<option value="Tea">🫖 Tea</option>
+					<option value="Cheese">🧀 Cheese</option>
+					<option value="Butter">🧈 Butter</option>
+					<option value="Apples">🍎 Apples</option>
+					<option value="Bananas">🍌 Bananas</option>
+					<option value="Pasta">🍝 Pasta</option>
+				</select>
+				<button onclick="addItem()">Add Item</button>
+			</div>
+			<h2>Shopping List</h2>
+			<ul id="groceryList"></ul>
+			<p id="itemCount">Items in list: 0</p>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
